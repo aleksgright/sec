@@ -44,6 +44,8 @@ jobs:
       - name: Run Dependency Check (SCA)
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          OSSINDEX_USER: ${{ secrets.OSSINDEX_USER }}
+          OSSINDEX_PASSWORD: ${{ secrets.OSSINDEX_PASSWORD }}
         run: |
           mkdir -p ./dependency-check-data
           mvn -B org.owasp:dependency-check-maven:check \

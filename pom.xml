@@ -144,6 +144,8 @@
                         <suppressionFile>dependency-check-suppressions.xml</suppressionFile>
                     </suppressionFiles>
                     <nvdApiKey>02163e0f-baa5-404b-94dc-333df3145b0c</nvdApiKey>
+                    <ossIndexUsername>RachillaSanya@yandex.ru</ossIndexUsername>
+                    <ossIndexPassword>7f3d3fdd653e7c6a93877c0bc6b25e65d0436aea</ossIndexPassword>
                 </configuration>
                 <executions>
                     <execution>
